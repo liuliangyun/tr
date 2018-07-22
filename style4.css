@@ -1,0 +1,15 @@
+div[title]{
+    color: red;
+}
+
+div[title="demo"]{
+    background-color: yellow;
+}
+
+div[title*="demo"]{
+    font-weight: bold;
+}
+
+div[title^="zh"]{
+    font-family: fantasy;
+}
